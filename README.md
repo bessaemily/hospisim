@@ -6,22 +6,23 @@
 
 Certifique-se de ter os seguintes itens instalados:
 
-•	.NET SDK 8.0 ou superior
-•	Visual Studio 2022 ou Visual Studio Code
-•	SQL Server (LocalDB ou instância completa)
+	- .NET SDK 8.0 ou superior
+	- Visual Studio 2022 ou Visual Studio Code
+	- SQL Server (LocalDB ou instância completa)
 ---
 ### 🔁 Clonar o repositório
 
-bash
+sh
 git clone https://github.com/bessaemily/hospisim.git
 cd hospisim
+
 ---
 
 ## Configuração do banco de dados
 
 Edite o arquivo appsettings.json para configurar a conexão com o banco de dados:
 
-bash 
+```json 
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=HospiSim;Trusted_Connection=True;MultipleActiveResultSets=true"
@@ -35,18 +36,17 @@ bash
   },
   "AllowedHosts": "*"
 }
+```
 
 ## Aplique as migrações
 
-bash 
+sh 
 dotnet ef database update
 
 ## Execução da API
 
-bash
+sh
 dotnet run
-
-
 
 -------------
 
