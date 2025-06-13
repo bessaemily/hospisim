@@ -64,3 +64,7 @@ Por padrão, a API será executada em:
 Acesse a interface Swagger para testar os endpoints:
 
 https://localhost:5001/swagger
+![image](https://github.com/user-attachments/assets/3cecbfd5-3233-496c-9b7f-f453a9d6e861)
+
+
+
