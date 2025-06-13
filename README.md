@@ -12,9 +12,10 @@ Certifique-se de ter os seguintes itens instalados:
 ---
 ### 🔁 Clonar o repositório
 
-sh
+```sh
 git clone https://github.com/bessaemily/hospisim.git
 cd hospisim
+```
 
 ---
 
@@ -40,14 +41,15 @@ Edite o arquivo appsettings.json para configurar a conexão com o banco de dados
 
 ## Aplique as migrações
 
-sh 
+```sh 
 dotnet ef database update
-
+```
 ## Execução da API
 
-sh
+```sh
 dotnet run
-
+```
+ 
 -------------
 
 ## Usando o Visual Studio
